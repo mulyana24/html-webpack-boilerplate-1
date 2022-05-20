@@ -85,7 +85,7 @@ function slide(wrapper, items) {
                 items.style.left = `${posInitial - slideSize}px`
                 index++
             } else if(direction == -1) {
-                items.style.left = `${posInitial - slideSize}px`
+                items.style.left = `${posInitial + slideSize}px`
                 index--
             }
         }
